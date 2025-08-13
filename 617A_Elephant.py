@@ -1,0 +1,20 @@
+# %%
+a=int(input())
+b=0
+while(a!=0):
+    if(a>=5):
+        a=a-5
+        b=b+1
+    elif(a>=4):
+        a=a-4
+        b=b+1
+    elif(a>=3):
+        a=a-3
+        b=b+1
+    elif(a>=2):
+        a=a-2
+        b=b+1
+    elif(a>=1):
+        a=a-1
+        b=b+1
+print(b)
